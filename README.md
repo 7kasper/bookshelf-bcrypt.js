@@ -1,15 +1,12 @@
-# bookshelf-bcrypt
-[![Build Status](https://circleci.com/gh/estate/bookshelf-bcrypt.svg?style=shield)](https://circleci.com/gh/estate/bookshelf-bcrypt)
-[![Code Climate](https://codeclimate.com/github/estate/bookshelf-bcrypt/badges/gpa.svg)](https://codeclimate.com/github/estate/bookshelf-bcrypt)
-[![Test Coverage](https://codeclimate.com/github/estate/bookshelf-bcrypt/badges/coverage.svg)](https://codeclimate.com/github/estate/bookshelf-bcrypt/coverage)
-[![Version](https://badge.fury.io/js/bookshelf-bcrypt.svg)](http://badge.fury.io/js/bookshelf-bcrypt)
-[![Downloads](http://img.shields.io/npm/dm/bookshelf-bcrypt.svg)](https://www.npmjs.com/package/bookshelf-bcrypt)
+# bookshelf-bcrypt.js
+[![Version](https://badge.fury.io/js/bookshelf-bcrypt.js.svg)](http://badge.fury.io/js/bookshelf-bcrypt.js)
+[![Downloads](http://img.shields.io/npm/dm/bookshelf-bcrypt.svg)](https://www.npmjs.com/package/bookshelf-bcrypt.js)
 
-Automatic password hashing for your bookshelf models
+Automatic password hashing for your bookshelf models. Uses bcrypt.js instead of regular bcrypt.
 
 ### Installation
 
-After installing `bookshelf-bcrypt` with `npm i --save bookshelf-bcrypt`,
+After installing `bookshelf-bcrypt.js` with `npm i --save bookshelf-bcrypt.js`,
 all you need to do is add it as a bookshelf plugin and enable it on your models.
 
 ```javascript
@@ -17,7 +14,7 @@ let knex = require('knex')(require('./knexfile.js').development)
 let bookshelf = require('bookshelf')(knex)
 
 // Add the plugin
-bookshelf.plugin(require('bookshelf-bcrypt'))
+bookshelf.plugin(require('bookshelf-bcrypt.js'))
 
 // Enable it on your models
 let User = bookshelf.Model.extend({ tableName: 'users', bcrypt: { field: 'password' } })
