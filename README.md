@@ -6,7 +6,7 @@ Automatic password hashing for your bookshelf models. Uses bcrypt.js instead of 
 
 ### Installation
 
-After installing `bookshelf-bcrypt.js` with `npm i --save bookshelf-bcrypt.js`,
+After installing `bookshelf-bcrypt.js` with `npm i --save bookshelf-bcryptjs`,
 all you need to do is add it as a bookshelf plugin and enable it on your models.
 
 ```javascript
@@ -14,7 +14,7 @@ let knex = require('knex')(require('./knexfile.js').development)
 let bookshelf = require('bookshelf')(knex)
 
 // Add the plugin
-bookshelf.plugin(require('bookshelf-bcrypt.js'))
+bookshelf.plugin(require('bookshelf-bcryptjs'))
 
 // Enable it on your models
 let User = bookshelf.Model.extend({ tableName: 'users', bcrypt: { field: 'password' } })
