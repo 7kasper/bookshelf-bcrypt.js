@@ -1,7 +1,7 @@
 {
-  "name": "bookshelf-bcrypt",
+  "name": "bookshelf-bcryptjs",
   "version": "3.0.2",
-  "description": "Automatic password hashing for your bookshelf models",
+  "description": "Automatic password hashing for your bookshelf models, with bcryptjs",
   "main": "index.js",
   "scripts": {
     "test": "standard && lab --verbose --colors --assert code --ignore __core-js_shared__",
@@ -19,22 +19,23 @@
     "bookshelf",
     "knex",
     "db",
-    "bcrypt",
+    "bcryptjs",
     "crypto",
     "cryptography",
     "password",
     "hash",
     "hashing",
-    "protection"
+    "protection",
+    "bycrypt"
   ],
   "author": "Estate <team@tryestate.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/estate/bookshelf-bcrypt/issues"
+    "url": "https://github.com/7kasper/bookshelf-bcrypt.js/issues"
   },
-  "homepage": "https://github.com/estate/bookshelf-bcrypt#readme",
+  "homepage": "https://github.com/7kasper/bookshelf-bcrypt.js#readme",
   "dependencies": {
-    "bcrypt": "^3.0.1",
+    "bcryptjs": "^2.4.3",
     "lodash.get": "^4.3.0",
     "lodash.merge": "^4.4.0",
     "sqlite3": "^4.0.2"
