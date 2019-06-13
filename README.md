@@ -1,8 +1,9 @@
 # bookshelf-bcrypt.js
-[![Version](https://badge.fury.io/js/bookshelf-bcrypt.js.svg)](http://badge.fury.io/js/bookshelf-bcrypt.js)
-[![Downloads](http://img.shields.io/npm/dm/bookshelf-bcrypt.svg)](https://www.npmjs.com/package/bookshelf-bcrypt.js)
+[![Version](https://badge.fury.io/js/bookshelf-bcryptjs.svg)](http://badge.fury.io/js/bookshelf-bcryptjs)
+[![Downloads](http://img.shields.io/npm/dm/bookshelf-bcryptsvg)](https://www.npmjs.com/package/bookshelf-bcryptjs)
 
-Automatic password hashing for your bookshelf models. Uses bcrypt.js instead of regular bcrypt.
+Automatic password hashing for your bookshelf models. Uses bcrypt.js instead of regular bcrypt.  
+Everything else is a direct fork from [bookshelf-bcrypt](https://www.npmjs.com/package/bookshelf-bcrypt).
 
 ### Installation
 
