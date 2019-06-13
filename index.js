@@ -2,7 +2,7 @@
 
 let merge = require('lodash.merge')
 let get = require('lodash.get')
-let bcrypt = require('bcrypt')
+let bcrypt = require('bcryptjs')
 
 // https://paragonie.com/blog/2016/02/how-safely-store-password-in-2016
 const RECOMMENDED_ROUNDS = 12

@@ -45,7 +45,7 @@ lab.experiment('general tests', () => {
     let user = yield User.forge({ email: 'Raina_Kunde14@hotmail.com' }).fetch()
     let error = yield user.compare().catch((err) => err)
 
-    expect(error.message).to.contain('arguments required')
+    expect(error.message).to.contain('arguments')
   }))
 
   lab.test('should bypass hashing', co.wrap(function * () {

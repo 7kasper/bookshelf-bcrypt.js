@@ -38,14 +38,14 @@
     "bcryptjs": "^2.4.3",
     "lodash.get": "^4.3.0",
     "lodash.merge": "^4.4.0",
-    "sqlite3": "^4.0.2"
+    "sqlite3": "^4.0.8"
   },
   "devDependencies": {
     "bookshelf": "^0.13.3",
     "co": "^4.6.0",
     "code": "^2.2.0",
     "knex": "^0.15.2",
-    "lab": "^10.3.1",
+    "lab": "^14.3.1",
     "standard": "^7.0.1"
   }
 }
