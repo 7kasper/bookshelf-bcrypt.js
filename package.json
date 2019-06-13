@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estate/bookshelf-bcrypt.git"
+    "url": "git+https://github.com/7kasper/bookshelf-bcrypt.js.git"
   },
   "keywords": [
     "bookshelf",
